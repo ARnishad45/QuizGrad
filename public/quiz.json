@@ -1,0 +1,242 @@
+[
+    {
+      "id": 1,
+      "question": "What is the purpose of HTML in web development?",
+      "options": [
+        "Styling web pages",
+        "Defining data structures",
+        "Programming server-side logic",
+        "Creating the structure of web pages"
+      ],
+      "answer": "Creating the structure of web pages",
+      "description": "HTML (Hypertext Markup Language) is the standard markup language for creating the structure of web pages. It defines the elements and their arrangement, allowing browsers to interpret and display content on the internet."
+    },
+    {
+      "id": 2,
+      "question": "What does CSS stand for in web development?",
+      "options": [
+        "Computer Style Sheets",
+        "Creative Style System",
+        "Cascading Style Sheets",
+        "Colorful Style Scripts"
+      ],
+      "answer": "Cascading Style Sheets",
+      "description": "CSS (Cascading Style Sheets) is a style sheet language used for describing the look and formatting of a document written in HTML. It controls the presentation, layout, and design of web pages, including aspects such as colors, fonts, and spacing."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is a popular front-end JavaScript framework?",
+      "options": [
+        "Express.js",
+        "Vue.js",
+        "Django",
+        "Flask"
+      ],
+      "answer": "Vue.js",
+      "description": "Vue.js is a progressive JavaScript framework used for building user interfaces. It is commonly used on the front end to create dynamic and reactive web applications. Vue.js is known for its simplicity and flexibility."
+    },
+    {
+      "id": 4,
+      "question": "What is the purpose of a web server in web development?",
+      "options": [
+        "Managing databases",
+        "Rendering user interfaces",
+        "Storing client-side scripts",
+        "Handling HTTP requests and responses"
+      ],
+      "answer": "Handling HTTP requests and responses",
+      "description": "A web server is a software or hardware component that handles HTTP (Hypertext Transfer Protocol) requests and responses. It serves web pages to clients, manages communication between clients and servers, and facilitates the processing of dynamic content."
+    },
+    {
+      "id": 5,
+      "question": "What is the role of AJAX in web development?",
+      "options": [
+        "Asynchronous JavaScript and XML",
+        "Advanced JSON and XML",
+        "Automated JavaScript and XHTML",
+        "Asynchronous JSON and XHTML"
+      ],
+      "answer": "Asynchronous JavaScript and XML",
+      "description": "AJAX (Asynchronous JavaScript and XML) is a set of web development techniques used to create asynchronous web applications. It allows data to be retrieved from a server asynchronously in the background, enabling dynamic and responsive user interfaces."
+    },
+    {
+      "id": 6,
+      "question": "What does the term 'responsive design' refer to in web development?",
+      "options": [
+        "Designing visually appealing websites",
+        "Creating mobile applications",
+        "Designing websites that adapt to different screen sizes",
+        "Implementing secure server configurations"
+      ],
+      "answer": "Designing websites that adapt to different screen sizes",
+      "description": "Responsive design in web development refers to the practice of creating websites that can adapt and provide an optimal viewing experience across various devices and screen sizes, including desktops, tablets, and mobile phones."
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of closures in JavaScript?",
+      "options": [
+        "To define private variables within functions",
+        "To improve performance by avoiding function calls",
+        "To create multiple copies of the same function",
+        "To access global variables from nested functions"
+      ],
+      "answer": "To define private variables within functions",
+      "description": "Closures allow functions to access variables from their outer scope even after the outer function has returned. This enables the creation of private variables specific to each function instance."
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of the `async/await` syntax in JavaScript?",
+      "options": [
+        "To define asynchronous functions directly, making promises easier to work with.",
+        "To create separate threads for running asynchronous code.",
+        "To increase performance of synchronous code.",
+        "To handle errors in callbacks more conveniently."
+      ],
+      "answer": "a",
+      "description": "The `async/await` syntax provides a cleaner way to write asynchronous code compared to callbacks or promises. It allows you to use `await` within an `async` function to pause execution until a promise resolves, making asynchronous code look more like synchronous code."
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between `bind`, `call`, and `apply` methods in JavaScript?",
+      "options": [
+        "They are all equivalent ways to call a function with specific arguments.",
+        "`bind` creates a new function with pre-set arguments, `call` calls the function immediately, and `apply` passes arguments as an array.",
+        "`bind` and `call` are for object methods, `apply` is for regular functions.",
+        "`bind` modifies the function itself, `call` and `apply` only affect the call execution."
+      ],
+      "answer": "b",
+      "description": "All three methods allow calling a function with specific arguments, but they differ in how they handle this: `bind` creates a new function with pre-set arguments, `call` calls the function immediately with the provided arguments, and `apply` passes arguments as an array."
+    },
+    {
+      "id": 10,
+      "question": "How do you handle asynchronous operations in JavaScript?",
+      "options": [
+        "Using `if` statements to check for completion",
+        "Using callbacks or promises",
+        "Through manual timeouts and loops",
+        "Asynchronous operations aren't possible"
+      ],
+      "answer": "Using callbacks or promises",
+      "description": "JavaScript uses an event-driven architecture, making callbacks and promises essential tools for handling asynchronous operations like network requests and timers. They allow your code to continue running while waiting for the asynchronous task to finish."
+    },
+    {
+      "id": 11,
+      "question": "What is the difference between `map` and `filter` in arrays?",
+      "options": [
+        "`map` creates a new array, `filter` modifies the original",
+        "`map` applies a function to each element, `filter` creates a new array based on a condition",
+        "They are opposite versions of the same function",
+        "`map` is for adding elements, `filter` is for removing them"
+      ],
+      "answer": "`map` applies a function to each element, `filter` creates a new array based on a condition",
+      "description": "`map` creates a new array by applying a function to each element of the original array. `filter` creates a new array containing only elements that pass a test implemented by the provided function."
+    },
+    {
+      "id": 12,
+      "question": "What is the purpose of the `this` keyword in JavaScript?",
+      "options": [
+        "To reference the global object",
+        "To refer to the current object context",
+        "To define object properties",
+        "To call methods on objects"
+      ],
+      "answer": "To refer to the current object context",
+      "description": "The `this` keyword references the current object context within a function. It allows you to access properties and methods of the object the function is currently being called on."
+    },
+    {
+      "id": 13,
+      "question": "How do you create a custom object in JavaScript?",
+      "options": [
+        "Using a class declaration",
+        "Using a constructor function",
+        "Using literal object notation",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "description": "There are multiple ways to create custom objects in JavaScript: using literal object notation, constructor functions, or class declarations (introduced in ES6). Each approach offers different advantages and suits specific use cases."
+    },
+    {
+      "id": 14,
+      "question": "What is the difference between `==` and `===` in JavaScript, and when would you use each one?",
+      "options": [
+        "They are the same operator with different syntax.",
+        "`==` only compares values, `===` compares values and types.",
+        "`==` is deprecated, use `===` always.",
+        "Use `==` for numbers, `===` for other types."
+      ],
+      "answer": "b",
+      "description": "While both `==` and `===` check for equality, they differ in their strictness. `==` performs type coercion before comparison, potentially leading to unexpected results, while `===` compares both values and types, providing stricter equality checks. Use `===` when exact equality is desired to avoid type coercion issues."
+    },
+    {
+      "id": 15,
+      "question": "What is the purpose of the spread operator (`...`) in JavaScript, and how can it be used for arrays and objects?",
+      "options": [
+        "To perform mathematical operations on numbers.",
+        "To copy objects by value.",
+        "To spread elements of an array into individual arguments.",
+        "To join arrays together."
+      ],
+      "answer": "c",
+      "description": "The spread operator (`...`) can be used in different contexts: spreading array elements into individual arguments (e.g., in function calls), creating new arrays by spreading existing ones, and even spreading object properties when creating new objects."
+    },
+    {
+      "id": 16,
+      "question": "Explain the difference between function hoisting and variable hoisting in JavaScript, and what are their implications?",
+      "options": [
+        "There is no difference, both terms refer to the same phenomenon.",
+        "Function declarations are hoisted, variable declarations are not.",
+        "Both functions and variables are hoisted to the top of their scope.",
+        "Only variables declared with `var` are hoisted."
+      ],
+      "answer": "b",
+      "description": "JavaScript hoists function declarations (not definitions) to the top of their scope, making them accessible before their declaration point. However, variable declarations, regardless of the keyword used (`var`, `let`, or `const`), are not hoisted. This distinction can lead to unexpected behavior if not understood correctly."
+    },
+    {
+      "id": 17,
+      "question": "How do you create modules in JavaScript (ES6+), and what are the benefits of using modularization?",
+      "options": [
+        "Using nested functions.",
+        "Using the `module` keyword.",
+        "Using IIFEs (Immediately Invoked Function Expressions).",
+        "None of the above."
+      ],
+      "answer": "b",
+      "description": "Modules in JavaScript allow encapsulating code and data, promoting organization, code reusability, and improved maintainability. You can create modules using the `export` and `import` keywords introduced in ES6."
+    },
+    {
+      "id": 18,
+      "question": "What are the differences between `forEach`, `map`, and `filter` methods for working with arrays in JavaScript?",
+      "options": [
+        "They all do the same thing differently.",
+        "They iterate over arrays but have different purposes.",
+        "They are not recommended for modern JavaScript.",
+        "They should only be used with primitive values."
+      ],
+      "answer": "b",
+      "description": "These methods provide different ways to interact with arrays: `forEach` iterates over elements without creating a new array, `map` creates a new array by applying a function to each element, and `filter` creates a new array containing elements that pass a test implemented by the provided function."
+    },
+    {
+      "id": 19,
+      "question": "What are the key differences between arrow functions and traditional function declarations in JavaScript?",
+      "options": [
+        "They do the same thing with different syntax.",
+        "Arrow functions have implicit `this` binding, no `arguments` object, and concise syntax.",
+        "Traditional functions are faster, while arrow functions are more readable.",
+        "Arrow functions cannot be used for constructors."
+      ],
+      "answer": "b",
+      "description": "Arrow functions offer a concise syntax compared to traditional function declarations. They also have implicit `this` binding, meaning they inherit the `this` context from the surrounding scope. However, they lack a dedicated `arguments` object and cannot be used as constructors due to their lexical scoping nature."
+    },
+    {
+      "id": 20,
+      "question": "Explain the purpose of the `document.querySelector` and `document.querySelectorAll` methods in JavaScript, and how they differ in their functionality.",
+      "options": [
+        "They are the same method with different syntax.",
+        "Both return all matching elements as an array.",
+        "Use `querySelector` for specific elements, `querySelectorAll` for all matches.",
+        "Use `querySelector` for IDs, `querySelectorAll` for classes."
+      ],
+      "answer": "c",
+      "description": "These methods provide ways to select elements in the DOM: `document.querySelector` returns the first matching element based on a CSS selector, while `document.querySelectorAll` returns all matching elements as an array. This distinction allows for both targeted selection and broader retrieval of elements within the document."
+    }
+  ]
